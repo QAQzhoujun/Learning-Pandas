@@ -18,3 +18,4 @@ na_position　{‘first’,‘last’}，设定缺失值的显示位置 <br>
 ### `icol irow ix 取行列` <br>
 
 data.ix[[1,2],[0]]   #选择第2,3行第1列的值
+df3 = df2.ix[:,['upper_boundary','lower_boundary']]
