@@ -1,8 +1,8 @@
 # Learning-Pandas
-=
+-----
 
 ### `sort.values()` <br>
-=
+------
 DataFrame.sort_values(by=‘##’,axis=0,ascending=True, inplace=False, na_position=‘last’)  <br>
 
 by	        指定列名(axis=0或’index’)或索引值(axis=1或’columns’) <br>
@@ -13,8 +13,8 @@ na_position	{‘first’,‘last’}，设定缺失值的显示位置 <br>
 
 
 ## `loc(df[''])<br>
-=
+----------
 
 ## `icol irow ix 取行列` <br>
-=
+----------
 data.ix[[1,2],[0]]   #选择第2,3行第1列的值
