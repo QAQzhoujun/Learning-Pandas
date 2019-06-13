@@ -12,7 +12,7 @@ inplace	    是否用排序后的数据集替换原来的数据，默认为False
 na_position	{‘first’,‘last’}，设定缺失值的显示位置 <br>
 
 
-### `loc(df[''])<br>
+### `loc(df[''])` <br>
 ----------
 
 ### `icol irow ix 取行列` <br>
