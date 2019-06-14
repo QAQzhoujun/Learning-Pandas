@@ -19,3 +19,11 @@ na_position　{‘first’,‘last’}，设定缺失值的显示位置 <br>
 
 data.ix[[1,2],[0]]   #选择第2,3行第1列的值<br>
 df3 = df2.ix[:,['upper_boundary','lower_boundary']] <br>
+
+###  `data.drop 删除指定行` <br>
+df = df.drop(df[df.score < 50].index)<br>
+df.drop(df[df.score < 50].index, inplace=True) 替换版本<br>
+df = df.drop(df[(df.label == -1) | (df.label ==2)].index)<br>
+
+### `data.lable.value_counts(dropna == False)` <br>
+data.lable.value_counts(dropna == False)
