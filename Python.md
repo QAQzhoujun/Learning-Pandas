@@ -32,3 +32,5 @@ mat=io.imread(filename)
 mat = transform.resize(mat,(224,224),mode = 'reflect')
 mat=np.repeat(mat,3).reshape(224,224,3)
 ```
+### 列表解析<br>
+[列表解析](https://codeday.me/bug/20170227/2940.html)<br>
